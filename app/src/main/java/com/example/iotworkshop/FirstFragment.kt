@@ -79,7 +79,7 @@ class FirstFragment : Fragment() {
         dataSet.setValueTextColors(listOf(resources.getColor(R.color.red, null)))
         val data = LineData(dataSet)
 
-        lineChartTemp.animateX(1000, Easing.EaseInSine)
+        lineChartTemp.animateX(5000, Easing.EaseInSine)
         lineChartTemp.data = data
         lineChartTemp.setPinchZoom(true)
         lineChartTemp.invalidate()
@@ -91,7 +91,7 @@ class FirstFragment : Fragment() {
         dataSet2.setValueTextColors(listOf(resources.getColor(R.color.blue, null)))
         val data2 = LineData(dataSet2)
 
-        lineChartHumidity.animateX(1000, Easing.EaseInSine)
+        lineChartHumidity.animateX(6000, Easing.EaseInSine)
         lineChartHumidity.data = data2
         lineChartHumidity.setPinchZoom(true)
         lineChartHumidity.invalidate()
